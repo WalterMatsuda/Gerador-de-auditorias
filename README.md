@@ -1,5 +1,5 @@
 # Gerador-de-auditorias
-1 - Execute a função dentro do database que deseja auditar , 
+1 - Execute o script dentro do database que deseja auditar ,para criar a função que gerará o script 
 
 2 - Execute a função informando o nome do schema que será auditado =>SELECT gerar_rules(NOME_DO_SCHEMA);
 
