@@ -10,7 +10,7 @@ rColumns RECORD ;
 tBigQuery TEXT := '';
 BEGIN 
 
-CREATE SCHEMA IF NOT EXISTS auditoria ; 
+tBigQuery:=tBigQuery||'CREATE SCHEMA IF NOT EXISTS auditoria ;'||E'\n'; 
 IF pSchema = (SELECT schema_name FROM information_schema.schemata WHERE schema_name = pSchema) THEN 
 
 FOR rTables IN SELECT table_name FROM information_schema.tables WHERE table_schema= pSchema 
