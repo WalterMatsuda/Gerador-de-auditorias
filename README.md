@@ -8,3 +8,11 @@
 
 
 O Schema informado gerará as tabelas no schema auditoria e as rules que irão inserir um log dentro da tabela correspondente em auditorias para auditar o banco.
+
+__________________
+
+Gerado Automatico :
+
+Execute o script da função dentro do banco ,
+
+Chame a função SELECT gerar_rules_automatico('public') ,modifique o parametro para o nome do schema que deseja criar as auditorias.
