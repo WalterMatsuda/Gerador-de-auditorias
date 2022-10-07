@@ -11,7 +11,7 @@ O Schema informado gerará as tabelas no schema auditoria e as rules que irão i
 
 __________________
 
-Gerado Automatico :
+Gerador Automatico :
 
 Execute o script da função dentro do banco ,
 
